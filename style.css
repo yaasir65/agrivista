@@ -1,0 +1,555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     font-family: Montserrat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 20px 60px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    font-size: 28px;
+}
+
+.loginbtm {
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #204E51;
+}
+
+.singbtm{
+    font-size: 30px;
+    color:#204E51 ;
+    border: 3px #204E51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+
+}
+.hero{
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://img.freepik.com/free-photo/green-field_155999-13.jpg?t=st=1716638705~exp=1716642305~hmac=bb84f5b4227438c45bcedc88fe1974a8ec1976638f25c83b95a5fbbc9d03df46&w=900");
+    
+}
+.hero h1{
+    padding-top: 80px;
+    font-size: 70px;
+}
+.hero p{
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+    padding-left: 50px;
+    background-color: #F0F0F0;
+}
+.box h1{
+margin-top: 80px;
+color: #204E51;
+font-size: 60px;
+}
+
+.box p{
+    /* margin: 30px;
+    padding-right: 50px; */
+    margin-top: 30px;
+
+}
+
+.box button{
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #204E51;
+    margin-top: 30px;
+    
+}
+
+.gaal{
+    position: relative;
+   
+
+}
+
+.gaal img{
+     margin: 40px;
+
+}
+
+.parent-box{
+
+    position: absolute;
+    width: 100px;
+     height: 50px; 
+    background-color: white;
+    bottom: 100px;
+    left: 300px ;
+    color: #204E51;
+    border-radius: 30px;
+    padding: 10px;
+   
+ 
+        
+
+}
+
+
+.parent-box h4 {
+    font-size: 20px;
+    margin-top: 10px;
+   
+
+   
+
+
+
+}
+
+.service{
+    text-align: center;
+
+
+}
+
+.service h1{
+    font-size: 100px;
+    margin: 20px;
+}
+
+.service p{
+
+    margin: 20px 490px;
+    
+
+}
+
+
+.service-parante{
+     display: flex;
+     justify-content: center;
+     margin: 50px 2px;
+    gap: 40px;  
+    background-color: #204E51;
+}
+
+.add{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 19px;
+    background-color:whitesmoke;
+    text-align: center;
+
+}
+
+.add img{
+
+     padding-top: 80px;
+    font-size: 18px;
+    padding-bottom: 14px; 
+
+}
+
+.daa{
+       padding-top: 30px;
+    padding-left: 20px;
+    width: 250px;
+    height: 440px;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px; 
+
+}
+
+.daa img{
+       width: 200px;
+    margin-bottom: 30px;
+    padding-top: 40px;  
+} 
+.product{
+     display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 25px;
+   margin: 12px;
+   padding: 17PX;
+   text-align: center; 
+    
+    
+}
+body{
+    background-color: #F0F0F0;
+}
+
+.sustain{
+    color: white;
+    padding: 50px;
+    height: 500px;
+    background-size: 100% 500px ;
+   background-repeat: no-repeat;
+
+   
+    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(sawir/Rectangle\ 4.png);
+   
+}
+.sustain h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+  
+  
+}
+
+.benefil-perent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.benefil-lef{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.banefil-right{
+    width: 550px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #204E51;
+}
+
+.benefil-lef h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color: #204E51;
+}
+
+.benefil-lef p{
+    margin-bottom: 30px;
+}
+
+.icon-perent{
+    margin: 30px;
+    display: flex;
+    gap: 60px;
+    color: white;
+}
+.icon-perent i{
+    font-size: 70px;
+
+}
+
+.icon-perent h1{
+    font-size: 60px;
+    
+}
+
+
+.hooyo{
+text-align: center;
+margin: 59px;
+/* background-color: #204E51; */
+
+
+
+}
+
+ .hooyo h1{
+    font-size: 70px;
+    color: #204E51;
+
+ }
+
+ .hooyo p{
+    margin: 10px 300px;
+
+    
+    
+
+ }
+
+
+ .grid-p{
+    background-color: #F0F0F0;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    /* justify-content: center; */
+    /* gap: 30px; */
+}
+.box-3{
+    margin-top: 175px;
+    margin-left: 120px;
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.box-3 i {
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#204E51;
+    font-size: 50px;
+}
+
+.box-4{
+    border-radius: 10px;
+    background-color: #204E51;
+    width: 850px;
+    height: 385px;
+}
+
+.box-5{
+    margin-top: 175px;
+    margin-left: 650px;
+    background-color:#FFFFFF ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.box-5 i{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#204E51;
+    font-size: 50px;
+}
+.theimg img{
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 231px;
+    height: 321px;
+}
+.theBig-1{
+    display: flex;
+}
+.icons-4 {
+    display: flex;
+    color: #FFBE40;
+    font-size: 30px;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.thelef-p {
+    color: white;
+    margin: 50px 70px;
+}
+.thelef-p h5{
+    font-size: 16px;
+    margin-top: 10px;
+
+} 
+.thelef-p p{
+
+    color: #b4b4ba;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.footer-5{
+    margin: 100px;
+    text-align: center;
+}
+
+.footer-5 h1{
+    margin-top: 20px;
+    /* margin-left: 425px; */
+    color: #204E51;
+    font-size: 50px;
+
+}
+
+.footer-5 p{
+   font-size: 20px;
+}
+
+.header i {
+    display: none;
+}
+
+
+
+@media screen  and ( max-width: 600px ) {
+    .header ul {
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .header h1{
+        font-size: 25px;
+
+    }
+
+    .header{
+        padding: 12px;
+    }
+
+    .header i{
+        font-size: 50px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .loginbtm{
+       margin-bottom: 30px;
+    }
+
+    .yaa h1 {
+        font-size: 60px;
+    }
+
+    .box{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .yaa h1{
+        font-size: 30px;
+    }
+
+    .gaal{
+       flex-direction: column;
+    }
+
+    .gaal2 img{
+        width: 390px;
+        height: 390px;
+        margin: 0px;
+    
+      
+    
+    }
+
+    .parent-box{
+        padding: 0px;
+        margin: 0px;
+       margin-top: 0px;
+    }
+
+    .parent-box{
+        margin-left: 0px;
+    }
+
+    .parent-box{
+        margin-right: 60px;
+    }
+
+    .service{
+        flex-direction: column;
+    }
+
+
+    .service h1{
+        font-size:40px;
+    }
+
+    .service p{
+        width: 310px;
+        font-size: 30px;
+      
+        margin-left: 40px;
+    }
+    .service-parante{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Product{
+        flex-direction: column;
+    }
+
+    .sustain h1{
+        font-size: 30px;
+    }
+    .benefil-perent{
+        flex-direction: column;
+      
+      
+       
+    }
+    .banefil-right{
+     width: 350px; 
+      
+      
+       
+        
+       
+    }
+
+    .benefil-lef h1{
+        font-size: 50px;
+        width: 300px;
+        margin-left: 50px ;
+        
+        
+    }
+    .benefil-lef p{
+        width: 300px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+        
+
+    }
+
+    .benefil-lef button{
+        margin-left: 50px;
+    }
+
+    .hooyo h1{
+       
+        font-size: 45px;
+    }
+
+    .hooyo p{
+        width: 300px;
+        font-size: 30px;
+       margin: 0px;
+       margin-top: 30px;
+    }
+
+   .grid-p{
+    flex-direction: column;
+    display: block;
+  
+   
+   }
+
+   
+
+    
+        
+
+    
+    
+
+    
+}
